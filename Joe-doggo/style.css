@@ -1,0 +1,10 @@
+body{
+    background: lightblue;
+    color: red;
+    text-align: center;
+    font-size: 2rem;
+}
+
+img{
+    max-height: 600px;
+}
