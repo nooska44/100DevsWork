@@ -1,0 +1,76 @@
+/* html{
+    /* border: 2px solid red; */
+    /* font-size: 1.8remg;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(yellow, orange);
+    box-sizing: border-box;
+} */
+
+/* body {
+    font-size: 3rem;
+} */
+/* 
+header {
+    margin-bottom: 30px;
+    text-align: center;
+    /* border: 2px solid green; */
+/* 
+}
+
+.item {
+    margin: 5vh;
+}
+
+select {
+    font-size: 1.1rem;
+}
+
+.section-container {
+    display: flex;  */
+    /* border: 2px solid blue; */
+    /* padding-left: 10vw;
+    padding-right: 10vw;
+
+} */
+
+/* .column { */
+    /* border: 2px solid greenyellow; */
+    /* flex: 1;
+}
+
+img{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+span, h3{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+#dog-name {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+#left-column{
+    text-align: center;
+} */ 
+
+body{
+    background: burlywood;
+  
+   
+}
+header{
+    text-align: center;
+    border-top: 40px;
+
+    
+}
+
+h2{
+    /* border: 2px solid rebeccapurple; */
+    margin: 50px auto;
+}
