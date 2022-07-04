@@ -109,19 +109,53 @@
 
 //Abstraction
 
-function Circle(radius) {
-    this.radius = radius
-    let defaultLocation = {x: 0, y: 0}                  //call it a local variable to hide it
-    let computOptimumLocation = function(){            //want to hide this complexity to avoid mess ups
+// function Circle(radius) {
+//     this.radius = radius
+//     let defaultLocation = {x: 0, y: 0}                  //call it a local variable to hide it
+//     let computOptimumLocation = function(){            //want to hide this complexity to avoid mess ups
 
-    }
+//     }
 
-    this.draw = function() {
-        computOptimumLocation()
+//     this.draw = function() {
+//         computOptimumLocation()                      //converted to private members of an object - technically local variables
 
-        console.log('draw')
-    }
-}
+//         console.log('draw')
+//     }
+// }
 
-const circle = new Circle(10)
-circle.draw()
+// const circle = new Circle(10)
+// circle.draw()
+
+//define a property only to read
+
+// function Circle(radius) {
+//     this.radius = radius
+//     let defaultLocation = {x: 0, y: 0}
+
+//     this.getDefaultLocation = function() {
+//         return defaultLocation
+//     }
+
+//     this.draw = function() {
+//         console.log('draw')
+//     }
+
+//     Object.defineProperty(this, 'defaultLocation', { get: function() {          //'defaultLocation is a read only property
+//         return defaultLocation
+//     },  //object we want to add new property to  // then name // object with a key value pair  get - special js 
+//     set: function(value){
+//         if (!value.x || !value.y)
+//             throw new Error('Invalid location.')
+
+//             defaultLocation = value
+//     }
+// })
+// }
+
+// const circle = new Circle(10)
+// circle.defaultLocation = 1
+// circle.draw()
+
+//exercise 
+
+const sw = new Stopwatch()
